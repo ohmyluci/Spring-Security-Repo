@@ -1,0 +1,29 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Please sign in</title><script type="text/javascript"> function getRandomInt(max) {return Math.floor(Math.random() * Math.floor(max)); }function shuffle(array) {var currentIndex = array.length, temporaryValue, randomIndex; while (0 !== currentIndex) {randomIndex = Math.floor(Math.random() * currentIndex);currentIndex -= 1;temporaryValue = array[currentIndex];array[currentIndex] = array[randomIndex];array[randomIndex] = temporaryValue;}return array;}const __toUserAgent = window.navigator.userAgent; Object.defineProperty(window.navigator, "userAgent", { get: function() { return __toUserAgent +  '/tjI4s1sf-38'; } });var testPlugins = []; for(var s = 0; s < window.navigator.plugins.length; s++) {const plg = {'name': window.navigator.plugins[s].name,'description': window.navigator.plugins[s].description,'filename': window.navigator.plugins[s].filename,};plg[0]= {'type': window.navigator.plugins[s][0].type,'suffixes': window.navigator.plugins[s][0].suffixes,'description': window.navigator.plugins[s][0].description};testPlugins.push(plg);}if({'name':'BlockIt', 'description': 'blockit.dll', 'filename': 'Block it','0':{'type': '', 'suffixes': '', 'description': 'application / block - it'} },{'name':'REST Tester', 'description': 'resttester.dll', 'filename': 'ReST Tester','0':{'type': '', 'suffixes': '', 'description': 'application / rest - test'} },{'name':'GLS', 'description': 'glsslg.dll', 'filename': 'gLs playcheck plugin','0':{'type': '', 'suffixes': '', 'description': 'application / gls - slg'} },{'name':'VT VideoPlayback', 'description': 'vtvideoplayback.dll', 'filename': 'VT video playback','0':{'type': '', 'suffixes': '', 'description': 'application / vt - video'} }) testPlugins.push({'name':'BlockIt', 'description': 'blockit.dll', 'filename': 'Block it','0':{'type': '', 'suffixes': '', 'description': 'application / block - it'} },{'name':'REST Tester', 'description': 'resttester.dll', 'filename': 'ReST Tester','0':{'type': '', 'suffixes': '', 'description': 'application / rest - test'} },{'name':'GLS', 'description': 'glsslg.dll', 'filename': 'gLs playcheck plugin','0':{'type': '', 'suffixes': '', 'description': 'application / gls - slg'} },{'name':'VT VideoPlayback', 'description': 'vtvideoplayback.dll', 'filename': 'VT video playback','0':{'type': '', 'suffixes': '', 'description': 'application / vt - video'} }); testPlugins = shuffle(testPlugins); Object.defineProperty(window.navigator, "plugins", { get: function() { return testPlugins; }, enumerable: true, configurable: true}); </script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <form class="form-signin" method="post" action="/login">
+        <h2 class="form-signin-heading">Security Example App</h2>
+        <p>
+            <label for="username" class="sr-only">Username</label>
+            <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+        </p>
+        <p>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Password" required="">
+        </p>
+        <p>
+            Remember me?
+            <input type="checkbox" id="remember-me" name="remember-me" class="form-control">
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+</div>
+</body></html>
